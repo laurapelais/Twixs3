@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #dd4b88;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#dd4b88,#a916f8);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.escola-div-conteudo{
+    width: 40%;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 100px;
+    padding: 13px 0;
+   
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none; /*sem decoração - era o que deixava o texto sublinhado*/
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 253, 227);
+  }
+  
+#menu {
+    z-index: 2;
+  }
+  
+#menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+
+.bar {
+    height: 5px;
+    width: 70%;
+    background-color: #24063b;
+    display: flex;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+  }
+  
+#bar3 {
+    transform: translateY(4px);
+}
+  
+.nav {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+    color: yellow;
+  }
+  
+
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background:#24063b; 
+    border-radius: 24%;
+    transition: 0.3s ease;
+  }
+
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: yellow;
+  }
+
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    opacity: 0;
+  }
+
+  .change #bar4 {
+    transform: translateY(-8px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+      width: 280px;
+      height: 839px;
+      transform: translate(-60%,-30%);
+}
+
+
+
+
+.banner {
+  background:  #da709c;
+  color: var(--branco);
+  text-align: center;
+  padding: 2.5em 2em;
+}
+
+.banner__titulo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.banner__texto {
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+.banner__pesquisa {
+  background-color: transparent;
+  border: 1px solid var(--branco);
+  color: var(--branco);
+  border-radius: 24px;
+  padding: 1em;
+  width: 50%;  
+}
+
+.banner__pesquisa::placeholder {
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--branco);
+  background: url("Lupa.svg") no-repeat;
+  background-position: 1em;  
+}
+
+:root {
+  --cor-de-fundo: #EBECEE;
+  --branco: #FFFFFF;
+  --laranja: #EB9B00;
+  --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Faz os itens ficarem em coluna */
+  }
+  
+  nav a {
+    margin: 5px 0;
+    text-transform: uppercase;
+    color:#000000;
+    text-decoration: none; /* Espaço entre os itens */
+  }
+
+  nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+  }
