@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twixs</title>
+    <link rel="icon" type="twixs_logo1.png" href="twixs_logo1.png">
+    <link rel="stylesheet" href="somos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="twixs_logo1.png" alt="logo da Twixs">
+        
+    </header>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Sobre quem somos</h2>
+            <p class="escola-texto-um">Somos um grupo de amigas apaixonadas por compartilhar momentos especiais e projetos, ideias e risadas contagiantes. Aqui buscamos inspirar e ser inspirados, celebrando a individualidade de cada um enquanto fortalecemos nossos laços de amizade.</p>
+            <p class="escola-texto-dois">Junte-se a nós nessa jornada única, onde cada membro é essencial para a doce harmonia do nosso grupo.</p>
+        </div>
+        <img class="escola-imagem" src="fada2.jpg" alt="imagem de fadas">
+       </section>
+    <section class="estudante">
+        <h2 class="estudante-titulo">Quem somos?</h2>
+        <div class="estudante-todos">
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="twixs1.png" alt="foto da Hillary">
+            <h3 class="estudante-nome">Hillary</h3>
+            
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="twixs2.png" alt="foto da Pantera">
+            <h3 class="estudante-nome">Pantera</h3>
+            
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="twixs3.png" alt="foto da Jolie">
+            <h3 class="estudante-nome">Jolie</h3>
+            
+        </div>
+        <span></span>
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="twixs4.png" alt="foto da luna">
+            <h3 class="estudante-nome">Luna</h3>
+            
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="twixs5.png" alt="foto da Jasmim">
+            <h3 class="estudante-nome">Jasmim</h3>
+            
+        </div>
+        </div>
+    </section>
+
+    
+   <footer class="rodape">
+    <img class="rodape-imagem"src="twixs_logo2.png" alt="logo da Twixs">
+    <p class="copyright">&copy; Copyright Twixs - 2024</p>
+</footer>
+</body>
+<body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+            <div id="bar4" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="projetos.html"> Projetos</a></li>
+            <li><a href="somos.html"> Sobre nós</a></li>
+            <li><a href="contato.html"> Contato</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"> </div>
+    
+    <script>
+    function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+    }
+    </script>
+    </body>
+</html>
